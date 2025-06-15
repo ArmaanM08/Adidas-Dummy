@@ -1,0 +1,9 @@
+{
+    "shoe1": {
+    "images":["Assets/shoes1/pic1.jpg","Assets/shoes1/pic2.jpg","Assets/shoes1/pic3.jpg","Assets/shoes1/pic4.jpg"],
+    "video": "Assets/shoes1/video1.webm"
+    },
+    "shoe2": {
+    "images":["Assets/shoe2/pic1.avif","Assets/shoe2/pic2.avif","Assets/shoe2/pic3.avif","Assets/shoe2/pic4.avif"]
+    }
+}

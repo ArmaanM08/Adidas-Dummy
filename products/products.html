@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adidas India</title>
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <link rel="stylesheet" href="/products/products.css" type="text/css">
+    </head>
+    <body>
+        <!-- 1ST OFFERs INDICATOR -->
+        <section id="offers">
+            <div id="top-changing_offers"></div>
+           <img src="/Assets/chevron-down-white.webp" style="width: 15px;height: 10px; padding-left: 10px;">
+        </section>
+
+        <!-- TOP NAV BAR -->
+        <div id="topbar">
+            <ul id="topnav">
+                <li><a href="/">help</a></li>
+                <li><a href="/">orders and return</a></li>
+                <li><a href="/">signup</a></li>
+                <li><a href="/">login</a></li>
+            </ul>
+        </div>
+
+        <!-- NAVIGATION BAR -->
+        <section id="Navigation-bar" style="height: 47px;vertical-align:bottom;">
+            <div id="logo"><a href="/index.html"><img src="/Assets/logo.webp" style="height: 60px; width: 60px;"></a></div>
+            <nav style="height: 47px; vertical-align:bottom">
+                <ul class="list" id="navbar" style="letter-spacing: 3px;">
+                    <li class="navlink" id="shoes"><a href="/products/products.html?filter=shoe">ShOES</a></li>
+                    <li class="navlink"><a href="/categorized/categorized.html?category=men">MEN</a></li>
+                    <li class="navlink"><a href="/categorized/categorized.html?category=women">WOMEN</a></li>
+                    <li class="navlink"><a href="/categorized/categorized.html?category=kids">KIDS</a></li>
+                    <li class="navlink" onclick="switchCategory()" style="font-family: adihausDIN-B;" id="sports">SPORTS & LIFESTYLE</li>
+                    <li class="navlink" onclick="switchCategory()" id="outlets">OUTLET</li>
+                </ul>
+            </nav>
+            <ul class="list" id="logos">
+                <li id="search">
+                    <input type="text" placeholder="Search">
+                    <button><img src="/Assets/srchbutton.png"></button>
+                </li>
+                <li id="user">
+                    <button><img src="/Assets/user.png" style="height: 30px; width:30px;"></button>
+                </li>
+                <li id="liked">
+                    <button><a href="/wishlist.html"><img src="/Assets/likedlis.png" style="height: 30px;"></a></button>
+                </li>
+                <li id="bag">
+                    <button><a href="/bag.html"><img src="/Assets/bag.png" style="height: 30px;"></a></button>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+
+
+
+        <section id="products-display">
+            <h2>All Products</h2>
+            <div id="product-filters">
+                <button data-filter="all">All</button>
+                <button data-filter="men">Men</button>
+                <button data-filter="women">Women</button>
+                <button data-filter="kids">Kids</button>
+                <button data-filter="shoe">Shoes</button>
+            </div>
+
+            <div id="product-sort">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select">
+                <option value="none">None</option>
+                <option value="low-to-high">Price: Low to High</option>
+                <option value="high-to-low">Price: High to Low</option>
+                </select>
+            </div>
+
+            <div id="all-products-container"></div>
+        </section>
+
+
+
+
+
+
+        <section id="joinoffer">
+            <h1>JOIN ADIDAS AND GET 10% OFF</h1>
+            <button>SIGN UP FOR FREE</button>
+        </section>
+
+        <section id="links">
+            <div id="list-cols">
+            <div class="columns" id="col1">
+                <h1 class="listheading">PRODUCTS</h1>
+                <h2><a href="/">Footwear</a></h2>
+                <h2><a href="/">Clothing</a></h2>
+                <h2><a href="/">Accessories</a></h2>
+                <h2> </h2>
+                <h2><a href="/">Outlet-Sale</a></h2>
+                <h2><a href="/">New Arrivals</a></h2>
+            </div>
+            <div class="columns" id="col2">
+                <h1 class="listheading">Sports</h1>
+                <h2><a href="/">Cricket</a></h2>
+                <h2><a href="/">Running</a></h2>
+                <h2><a href="/">Football</a></h2>
+                <h2><a href="/"> Gym/Training</a></h2>
+                <h2><a href="/">Tennis</a></h2>
+                <h2><a href="/">Outdoor</a></h2>
+                <h2><a href="/">Basketball</a></h2>
+                <h2><a href="/">Swimming</a></h2>
+                <h2><a href="/">Skateboarding</a></h2>
+                <h2><a href="/">Motorsport</a></h2>
+            </div>
+            <div class="columns" id="col3">
+                <h1 class="listheading">COLLECTIONS</h1>
+                <h2><a href="/">Ultraboost</a></h2>
+                <h2><a href="/">Superstar</a></h2>
+                <h2><a href="/">NMD</a></h2>
+                <h2><a href="/">Stan Smith</a></h2>
+                <h2><a href="/">Sustainability</a></h2>
+                <h2><a href="/">Predator</a></h2>
+                <h2><a href="/">Parley</a></h2>
+                <h2><a href="/">Adicolor</a></h2>   
+            </div>
+            <div class="columns" id="col4">
+                <h1 class="listheading">SUPPORT</h1>
+                <h2><a href="/">Help</a></h2>
+                <h2><a href="/">Customer Services</a></h2>
+                <h2><a href="/">Women's Summer Wear</a></h2>
+                <h2><a href="/">Return & Exchanges</a></h2>
+                <h2><a href="/">Shipping</a></h2>
+                <h2><a href="/">Order Tracker</a></h2>
+                <h2><a href="/">Store Finder</a></h2>
+                <h2><a href="/">adi Club</a></h2>
+                <h2><a href="/">adi Club Terms and Conditions</a></h2>
+            </div>
+            <div class="columns" id="col4">
+                <h1 class="listheading">COMPANY INFO</h1>
+                <h2><a href="/#aboutus">About us</a></h2>
+                <h2><a href="/">adidas stories</a></h2>
+                <h2><a href="/">adidas Apps</a></h2>
+                <h2><a href="/">Entity details</a></h2>
+                <h2><a href="/">Press</a></h2>
+                <h2><a href="/">Careers</a></h2>
+            </div>
+            <div class="columns" id="col4">
+                <h1 class="listheading">FOLLOW US</h1>
+                <a href="https://www.instagram.com/adidas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="/Assets/NE_Winstagram_logo_footer_tcm209_875968_e40414a503.png" alt="instalogo"></a>
+            </div>
+        </section>
+
+        <footer>
+            <div id="footer">
+                <ul id="legal_menu">
+                    <li class="legal_menu_item">
+                        <a href="/">Privacy Policy</a>
+                    </li>
+                    <li class="legal_menu_item">
+                        <a href="/">Terms and Conditions</a>
+                    </li>
+                    <li class="legal_menu_item" style="border: 0;">
+                        <a href="/">Cookies</a>
+                    </li>
+                </ul>
+                <div id="copyright">
+                    <span>JUST FOR EDUCATIONAL PURPOSE</span>
+                </div>
+            </div>
+        </footer>
+        
+
+        <script src="/products/products.js"></script>
+        <!-- <script src="/categorized.js"></script> -->
+        <script src="/script.js"></script>
+        <script src="/productpage/productpage.js"></script>
+    </body>
+</html>

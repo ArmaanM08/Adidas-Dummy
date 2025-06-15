@@ -1,0 +1,43 @@
+#products-display{
+    margin: 40px 80px;
+}
+#products-display h2{
+    font-size: 40px;
+    font-family: adineuePRO,Helvetica;
+    letter-spacing: 2px;
+}
+#all-products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+}
+#product-filters {
+  margin: 20px;
+  text-align: center;
+}
+
+#product-filters button {
+  margin: 0 10px;
+  padding: 10px 16px;
+  border: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#product-filters button:hover {
+  background-color: #444;
+}
+#product-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+#product-sort select {
+  padding: 5px;
+  font-size: 1rem;
+}

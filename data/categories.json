@@ -1,0 +1,78 @@
+{
+    "men": {
+      "media": [
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/233a605da4994eaea46a034c3c0a6ddb_9366/ADIDAS_FEROZA_MERCEDES_AMG_PETRONAS_F1_TEAM_SHOES_Black_JQ3272_00_plp_standard.jpg",
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/9c6ddfc4a4be4ff4abc16ced38faee19_9366/MERCEDES_-_AMG_PETRONAS_FORMULA_ONE_TEAM_DRIVER_CAP_Turquoise_JW6268_HM1.jpg",
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/f35256c62f8d4e068033705a0a1d226e_9366/MERCEDES_-_AMG_PETRONAS_FORMULA_ONE_TEAM_DRIVER_JERSEY_White_JX5798_HM1.jpg",
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/ad4b054abbfd4a93a6b394540c3f6dde_9366/MERCEDES_-_AMG_PETRONAS_FORMULA_ONE_TEAM_INTELLIGENT_PACKING_SYSTEM_SLINGBACK_Black_JX6478_00_plp_standard.jpg",
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/3766daea46314379b197b4a0ea0ee9ec_9366/Mercedes_-_AMG_Petronas_Formula_One_Team_Premium_Sweat_Tee_Beige_JW3088_000_plp_model.jpg",
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/25ef2b4e86fc445d9dd317a795ade040_9366/adidas_Z.N.E._Open-Hem_Pants_Beige_JC6716_000_plp_model.jpg"
+      ],
+      "price": ["₹11 999.00", "₹3599.00", "₹3599.00", "₹2999.00", "₹4599.00", "₹2599.00"],
+      "description": [
+          "MERCEDES - AMG PETRONAS FORMULA ONE TEAM DNA<br>Team Shoes",
+          "MERCEDES - AMG PETRONAS FORMULA ONE TEAM DNA<br>Driver Cap",
+          "MERCEDES - AMG PETRONAS FORMULA ONE TEAM <br>Driver Jersey",
+          "MERCEDES - AMG PETRONAS FORMULA ONE TEAM <br>DNA Pant",
+          "MERCEDES - AMG PETRONAS FORMULA ONE TEAM <br>Premium Sweat Tee",
+          "adidas Z.N.E. Open-Hem Pants"
+        ]
+    },
+    "shoe": {
+        "media": [
+            "/Assets/Shoes/shoe1.avif",
+            "/Assets/Shoes/shoe2.avif",
+            "/Assets/Shoes/shoe3.avif",
+            "/Assets/Shoes/shoe4.avif",
+            "/Assets/Shoes/shoe5.avif",
+            "/Assets/Shoes/shoe6.avif"
+        ],
+        "price": ["₹11 999.00", "₹3599.00", "₹3599.00", "₹2999.00", "₹4599.00", "₹2599.00"],
+        "description": [
+            "MERCEDES - AMG PETRONAS FORMULA ONE TEAM DNA<br>Team Shoes",
+            "MERCEDES - AMG PETRONAS FORMULA ONE TEAM DNA<br>Driver Cap",
+            "MERCEDES - AMG PETRONAS FORMULA ONE TEAM <br>Driver Jersey",
+            "MERCEDES - AMG PETRONAS FORMULA ONE TEAM <br>DNA Pant",
+            "MERCEDES - AMG PETRONAS FORMULA ONE TEAM <br>Premium Sweat Tee",
+            "adidas Z.N.E. Open-Hem Pants"
+        ]
+  },
+  "women": {
+    "media": [
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/8c080f481bd74684a24c923d9978e716_9366/MERCEDES_-_AMG_PETRONAS_FORMULA_ONE_TEAM_POLO_Black_JX0759_000_plp_model.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/851a0178e98245eeab237ebd1c808bf1_9366/MERCEDES_-_AMG_PETRONAS_FORMULA_ONE_TEAM_MECHANICS_JERSEY_Black_JX8246_HM1.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/233a605da4994eaea46a034c3c0a6ddb_9366/ADIDAS_FEROZA_MERCEDES_AMG_PETRONAS_F1_TEAM_SHOES_Black_JQ3272_00_plp_standard.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/e0f24714edce438f9977be20e4dc8863_9366/Mercedes_-_AMG_Petronas_Formula_One_Team_Acesmash_Mid_Shoes_Beige_JR1060_00_plp_standard.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/a8dc908c0b1b49dfaacfe58a5110b44f_9366/MERCEDES_-_AMG_PETRONAS_FORMULA_ONE_TEAM_QUARTER_ZIP_Black_JX0744_HM1.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/aa7f38c86cb84f6aad047a454cafca08_9366/Mercedes_-_AMG_Petronas_Formula_One_Team_Acesmash_Mid_Shoes_Black_JS4078_00_plp_standard.jpg"
+    ],
+    "price": ["₹11 999.00", "₹3599.00", "₹3599.00", "₹2999.00", "₹4599.00", "₹2599.00"],
+    "description": [
+      "MERCEDES - AMG PETRONAS FORMULA ONE TEAM<br>POLO Black",
+      "MERCEDES - AMG PETRONAS FORMULA ONE TEAM<br>MECHANICS JERSEY Black",
+      "ADIDAS FEROZA MERCEDES AMG PETRONAS<br>F1 TEAM SHOES Black",
+      "Mercedes - AMG Petronas Formula One Team<br>Acesmash Mid Shoes Beige",
+      "MERCEDES - AMG PETRONAS FORMULA ONE TEAM<br>QUARTER ZIP Black",
+      "Mercedes - AMG Petronas Formula One Team Acesmash Mid Shoes Black"
+    ]
+  },
+  "kids": {
+    "media": [
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/d2abeff355844d4085727d70d1d65273_9366/Samba_OG_Shoes_Kids_White_IE3679_00_plp_standard.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/c43d1b5e20bc4effba79f264ea591493_9366/Duramo_SL_Shoes_Kids_Black_IH3599_00_plp_standard.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/83cde0fe29f04be1b30e9fae69a85c17_9366/Real_Madrid_25-26_Home_Jersey_Kids_White_JN8887_000_plp_model.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/dbdc7f13c30448ddb1232556755b0242_9366/Copa_Pure_3_Club_Firm-Multi-Ground_Boots_Kids_Blue_IE1198_22_model.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/26cb53d5b8184c17a914e60020e9a832_9366/Break_Start_Shoes_Kids_Black_JI4563_00_plp_standard.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f1855781dc94f04b74cb869696b4c08_9366/India_Cricket_One_Day_International_2025_Junior_Replica_Jersey_Blue_KB3108_00_plp_laydown.jpg"
+    ],
+    "price": ["₹4999.00", "₹3009.00", "₹3999.00", "₹3219.00", "₹3499.00", "₹2499.00"],
+    "description": [
+      "Samba - OG Shoes Kids",
+      "Duramo Sl Shoes Kids",
+      "Real Madrid 25/26 Home Jersey",
+      "Copa pure 3club FUN",
+      "Break Start Shoes - Kids",
+      "Indian 1 Day Intl. Jersey"
+    ]
+  }
+}
