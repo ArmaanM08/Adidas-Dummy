@@ -4,17 +4,17 @@ const products = {
     prodname:"RESPONSE RUNNER SHOES",
     prodprice:"₹5599.00",
     colors: [{
-      thumbnail:"/Assets/shoes1/colors/Black.avif",
-      video: "/Assets/shoes1/video1.webm",
+      thumbnail:"/Adidas-Dummy/Assets/shoes1/colors/Black.avif",
+      video: "/Adidas-Dummy/Assets/shoes1/video1.webm",
       images: [
-        "/Assets/shoes1/pic1.jpg",
-        "/Assets/shoes1/pic2.jpg",
-        "/Assets/shoes1/pic3.jpg",
-        "/Assets/shoes1/pic4.jpg"
+        "/Adidas-Dummy/Assets/shoes1/pic1.jpg",
+        "/Adidas-Dummy/Assets/shoes1/pic2.jpg",
+        "/Adidas-Dummy/Assets/shoes1/pic3.jpg",
+        "/Adidas-Dummy/Assets/shoes1/pic4.jpg"
       ]
     },
     {
-      thumbnail:"/Assets/shoes1/colors/Grey.avif",
+      thumbnail:"/Adidas-Dummy/Assets/shoes1/colors/Grey.avif",
       images:[
         "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/86d116aad38341069b9a8a9c00f149ab_9366/Response_Runner_Shoes_Grey_IH3578_01_standard.jpg",
         "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/0fa4e5659620488ab45aff92facd2ba0_9366/Response_Runner_Shoes_Grey_IH3578_02_standard_hover.jpg",
@@ -23,7 +23,7 @@ const products = {
         ]
       },
       {
-        thumbnail:"/Assets/shoes1/colors/Blue.avif",
+        thumbnail:"/Adidas-Dummy/Assets/shoes1/colors/Blue.avif",
         images:[
           "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/eed29dcae8984ef3a113bd8806fa863b_9366/Response_Runner_Shoes_Blue_IH3580_01_standard.jpg",
           "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a0db872f11f84b2295d430955c96b5c1_9366/Response_Runner_Shoes_Blue_IH3580_02_standard_hover.jpg",
@@ -32,7 +32,7 @@ const products = {
       ]
       },
       {
-        thumbnail:"/Assets/shoes1/colors/White.avif",
+        thumbnail:"/Adidas-Dummy/Assets/shoes1/colors/White.avif",
         images:[
           "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f50c95972ff477499fb1c52cf7a7284_9366/Response_Runner_Shoes_White_IH3581_01_standard.jpg",
           "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab18f541711c41b78c815a45563ca3fa_9366/Response_Runner_Shoes_White_IH3581_02_standard_hover.jpg",
@@ -48,7 +48,7 @@ const products = {
     prodname:"ADILETTE COMFORT SLIDES",
     colors:[
       {
-        thumbnail: "/Assets/shoe2/colors/black-white.avif",
+        thumbnail: "/Adidas-Dummy/Assets/shoe2/colors/black-white.avif",
         video: "https://assets.adidas.com/videos/ar_1,w_720,c_fill,q_auto,f_auto/f12a545006e34c7790d5aecedc6cf371_d98c/Adilette_Comfort_Slides_Black_GY1945_video.mp4",
         images:[
             "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c8f3d40b18994713a770ae7001746249_9366/Adilette_Comfort_Slides_Black_GY1945_01_00_standard.jpg",
@@ -57,7 +57,7 @@ const products = {
           ]
     },
     {
-      thumbnail:"/Assets/shoe2/colors/navy-blue.avif",
+      thumbnail:"/Adidas-Dummy/Assets/shoe2/colors/navy-blue.avif",
       images:[
         "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/8a4b202dd7f6474f9278af4700817e36_9366/Adilette_Comfort_Slides_Blue_H03616_01_standard.jpg",
         "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe814dce81d44cdab901af4700819aec_9366/Adilette_Comfort_Slides_Blue_H03616_02_standard_hover.jpg",
@@ -66,12 +66,12 @@ const products = {
       ]
     },
     {
-      thumbnail:"/Assets/shoe2/colors/black-army.avif",
+      thumbnail:"/Adidas-Dummy/Assets/shoe2/colors/black-army.avif",
       images:[
-        "/Assets/shoe2/pic1.avif",
-        "/Assets/shoe2/pic2.avif",
-        "/Assets/shoe2/pic3.avif",
-        "/Assets/shoe2/pic4.avif"
+        "/Adidas-Dummy/Adidas-Dummy/Assets/shoe2/pic1.avif",
+        "/Adidas-Dummy/Assets/shoe2/pic2.avif",
+        "/Adidas-Dummy/Assets/shoe2/pic3.avif",
+        "/Adidas-Dummy/Assets/shoe2/pic4.avif"
       ]
       }
     ]
