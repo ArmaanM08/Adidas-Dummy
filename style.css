@@ -1,21 +1,21 @@
 /* SETTING UP FONTS */
-@import url('https://fonts.googleapis.com/css?family=Electrolize:regular');
+@import url("https://fonts.googleapis.com/css?family=Electrolize:regular");
 
 @font-face {
     font-family: AdihausDIN;
-    src: url('/Adidas-Dummy/Assets/Fonts/AdidasFont/AdihausDIN-Regular.woff2');
+    src: url("/Adidas-Dummy/Assets/Fonts/AdidasFont/AdihausDIN-Regular.woff2");
 }
 @font-face {
     font-family: AdihausDIN-B;
-    src: url('/Adidas-Dummy/Assets/Fonts/AdidasFont/AdihausDIN-Bold.woff2');
+    src: url("/Adidas-Dummy/Assets/Fonts/AdidasFont/AdihausDIN-Bold.woff2");
 }
 @font-face {
     font-family: adineuePRO;
-    src: url('/Adidas-Dummy/Assets/Fonts/AdidasFont/adineuePRO-Bold.woff2');
+    src: url("/Adidas-Dummy/Assets/Fonts/AdidasFont/adineuePRO-Bold.woff2");
 }
 @font-face {
     font-family: adidasFG;
-    src: url('/Adidas-Dummy/Assets/Fonts/AdidasFont/adidasFG-CompressedBold.woff2');
+    src: url("/Adidas-Dummy/Assets/Fonts/AdidasFont/adidasFG-CompressedBold.woff2");
 }
 
 
@@ -146,7 +146,7 @@ button:hover{
 }
 
 #frontpage{
-    background-image: url('/Adidas-Dummy/Assets/frontpagebg.png');
+    background-image: url("/Adidas-Dummy/Assets/frontpagebg.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 1695px;
