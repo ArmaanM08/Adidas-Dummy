@@ -20,12 +20,12 @@
     },
     "shoe": {
         "media": [
-            "/Assets/Shoes/shoe1.avif",
-            "/Assets/Shoes/shoe2.avif",
-            "/Assets/Shoes/shoe3.avif",
-            "/Assets/Shoes/shoe4.avif",
-            "/Assets/Shoes/shoe5.avif",
-            "/Assets/Shoes/shoe6.avif"
+            "/Adidas-Dummy/Assets/Shoes/shoe1.avif",
+            "/Adidas-Dummy/Assets/Shoes/shoe2.avif",
+            "/Adidas-Dummy/Assets/Shoes/shoe3.avif",
+            "/Adidas-Dummy/Assets/Shoes/shoe4.avif",
+            "/Adidas-Dummy/Assets/Shoes/shoe5.avif",
+            "/Adidas-Dummy/Assets/Shoes/shoe6.avif"
         ],
         "price": ["₹11 999.00", "₹3599.00", "₹3599.00", "₹2999.00", "₹4599.00", "₹2599.00"],
         "description": [
