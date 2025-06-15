@@ -37,7 +37,7 @@ window.onload = () => {
     return;
   }
 
-  fetch('/data/categories.json')
+  fetch('/Adidas-Dummy/data/categories.json')
     .then(res => res.json())
     .then(data => {
       loadProducts(category, data);
@@ -51,6 +51,6 @@ document.addEventListener('click', function (e) {
     const card = e.target.closest('.prod-card');
     const prodId = card.getAttribute('data-id');
     localStorage.setItem('selectedShoe', prodId);
-    window.location.href = '/productpage/productpage.html';
+    window.location.href = '/Adidas-Dummy/productpage/productpage.html';
   }
 });
