@@ -1,5 +1,5 @@
 window.onload = function () {
-  fetch("/data/categories.json")
+  fetch("/Adidas-Dummy/data/categories.json")
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById("all-products-container");
@@ -61,7 +61,7 @@ window.onload = function () {
             `;
             card.addEventListener("click", () => {
             localStorage.setItem("selectedShoe", product.id);
-            window.location.href = "productpage.html";
+            window.location.href = "/Adidas-Dummy/productpage.html";
             });
             container.appendChild(card);
         });
