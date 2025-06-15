@@ -1,0 +1,71 @@
+#videotext{
+    position: absolute;
+    top: 10%;
+}
+
+/* Mens-Brands */
+.prod-gallery {
+  padding: 40px;
+  background: #f5f5f5;
+}
+#product-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  scrollbar-width:thin;
+  scrollbar-color: black white;
+}
+#product-container::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 1px;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category-container {
+    margin: 100px 0px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.category-card {
+  flex: 0 0 auto;
+  width: 320px;
+  height: 440px;
+  background: transparent;
+  border-radius: 12px;
+  padding: 20px;
+  scroll-snap-align: center;
+  /* text-align: center; */
+}
+.category-card:hover{
+    border: 1px solid black;
+    border-radius: 0;
+}
+.category-card img,.categoryvideo{
+  width: 100%;
+  height: auto;
+}
+
+.category-card h3 {
+  margin: 5px 0 5px;
+  font-size: 1.1rem;
+}
+
+.category-card p {
+  color: #555;
+}
+.category-card a{
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-bottom: 2.5px solid black;
+}

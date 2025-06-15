@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adidas India</title>
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <link rel="stylesheet" href="/productpage/productipage.css" type="text/css">
+    </head>
+    <body>
+        <!-- 1ST OFFERs INDICATOR -->
+        <section id="offers">
+            <div id="top-changing_offers"></div>
+            <img src="/Assets/chevron-down-white.webp" style="width: 15px; padding-left: 10px;">
+        </section>
+
+        <!-- TOP NAV BAR -->
+        <div id="topbar">
+            <ul id="topnav">
+                <li><a href="/">help</a></li>
+                <li><a href="/">orders and return</a></li>
+                <li><a href="/">signup</a></li>
+                <li><a href="/">login</a></li>
+            </ul>
+        </div>
+
+        <!-- NAVIGATION BAR -->
+        <section id="Navigation-bar" style="height: 47px;vertical-align:bottom;">
+            <div id="logo"><a href="/index.html"><img src="/Assets/logo.webp" style="height: 60px; width: 60px;"></a></div>
+            <nav>
+                <ul class="list" id="navbar">
+                    <li class="navlink" id="shoes"><a href="/products/products.html?filter=shoe">SHOES</a></li>
+                    <li class="navlink"><a href="/categorized/categorized.html?category=men">MEN</a></li>
+                    <li class="navlink"><a href="/categorized/categorized.html?category=women">WOMEN</a></li>
+                    <li class="navlink"><a href="/categorized/categorized.html?category=kids">KIDS</a></li>
+                    <li class="navlink" onclick="switchCategory()" style="font-family: adihausDIN-B;" id="sports">SPORTS & LIFESTYLE</li>
+                    <li class="navlink" onclick="switchCategory()" id="outlets">OUTLET</li>
+                </ul>
+            </nav>
+            <ul class="list" id="logos">
+                <li id="search">
+                    <input type="text" placeholder="Search">
+                    <button><img src="/Assets/srchbutton.png"></button>
+                </li>
+                <li id="user">
+                    <button><img src="/Assets/user.png" style="height: 30px; width:30px;"></button>
+                </li>
+                <li id="liked">
+                    <button><a href="/wishlist/wishlist.html"><img src="/Assets/likedlis.png" style="height: 30px;"></a></button>
+                </li>
+                <li id="bag">
+                    <button><a href="/bag/bag.html"><img src="/Assets/bag.png" style="height: 30px;"></a></button>
+                </li>
+            </ul>
+        </section>
+
+        <section id="prod_info">
+
+            <!-- LEFT SIDE OF THE PAGE -->
+
+            <section id="left-container">
+                <section id="left">
+                    <div id="quicknav" style="padding-left: 2%;">
+                        <h3 ><a href="/"onclick="goback()"><- Back</a></h3>
+                        <h3><a href="/index.html">Home</a></h3>
+                        <h3>/</h3>
+                        <h3><a href="/">Running</a></h3>
+                        <h3>/</h3>
+                        <h3><a href="/">Shoes </a></h3>
+                    </div>
+
+                    <div class="prodmedia">
+                        <img class="prodimg" id="prodimg1" src="/">
+                        <video autoplay loop muted id="prodvideo">
+                            <source src="/">
+                        </video>
+                        <img class="prodimg"  id="prodimg2" src="/">
+                        <img class="prodimg"  id="prodimg3" src="/">
+                        <img class="prodimg"  id="prodimg4" src="/" hidden>
+                    </div>
+
+                    <div id="rdd">
+                        <div class="rdd_design" id="prodrev">
+                            <h3>Review</h3>
+                            <img src="/Assets/misc/chevron-down-black.png" width="30px" height="30px"> 
+                        </div>
+                        <div class="rdd_design" id="proddes">
+                            <h3>Description</h3>
+                            <img src="/Assets/misc/chevron-down-black.png" width="30px" height="30px">
+                        </div>
+                        <div class="rdd_design" id="proddet">
+                            <h3>Details</h3>
+                            <img src="/Assets/misc/chevron-down-black.png" width="30px" height="30px">
+                        </div>
+                    </div>
+
+                    <div id="recommend_prod">
+                        <h1 class="headings">COMPLETE THE LOOK</h1>
+                        <div id="scroll-container">
+                            <div class="prod-card">
+                                <img src="/Assets/clothing/blue_tank.avif" alt="Shoe 2">
+                                <h3>OTR B TANK</h3>
+                                <p>₹2499.00</p>
+                            </div>
+                            <div class="prod-card">
+                                <img src="/Assets/clothing/Own_The_Run_Excite_Allover_Print_AEROREADY_Hoodie_Blue_IX5416_000_plp_model.avif" alt="Shoe 1">
+                                <h3>Own The Run Excite<br>Allover Print<br>AEROREADY Hoodie Blue</h3>
+                                <p>₹3959.00</p>
+                            </div>
+                            <div class="prod-card">
+                                <img src="/Assets/clothing/whiteshorts.avif" alt="Shoe 2">
+                                <h3>Own The Run Excite<br>aery and original<br>white shorts</h3>
+                                <p>₹3999.00</p>
+                            </div>
+                            <div class="prod-card">
+                                <img src="/Assets/clothing/running_belt.avif" alt="Shoe 1">
+                                <h3>Running Belt</h3>
+                                <p>₹2499.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="recommend2">
+                        <h1 class="headings">YOU MAY ALSO LIKE</h1>
+                        <div id="scroll-container">
+                            <div class="prod-card" data-id="shoe1">
+                                <img src="/Assets/Shoes/shoe1.avif" alt="Shoe 2">
+                                <h3>RESPONSE RUNNER SHOES</h3>
+                                <p>₹5599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe2">
+                                <img src="/Assets/Shoes/shoe2.avif" alt="Shoe 1">
+                                <h3>ADILETTE COMFORT SLIDES</h3>
+                                <p>₹4599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe=3">
+                                <img src="/Assets/Shoes/shoe3.avif" alt="Shoe 2">
+                                <h3>ADILETTE COTTON COMFORT</h3>
+                                <p>₹3599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe4">
+                                <img src="/Assets/Shoes/shoe4.avif" alt="Shoe 1">
+                                <h3>THE CYBERRUNNER(CyberTruck)</h3>
+                                <p>₹4999.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe5">
+                                <img src="/Assets/Shoes/shoe5.avif" alt="Shoe 2">
+                                <h3>THE CYBERRUNNER(Base-1)</h3>
+                                <p>₹4599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe6">
+                                <img src="/Assets/Shoes/shoe6.avif" alt="Shoe 1">
+                                <h3>RUN COMFY</h3>
+                                <p>₹2599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe7">
+                                <img src="/Assets/Shoes/shoe7.avif" alt="Shoe 2">
+                                <h3>RUN COMFY PRO</h3>
+                                <p>₹2999.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe8">
+                                <img src="/Assets/Shoes/shoe8.avif" alt="Shoe 1">
+                                <h3>DOWN STREET(M-BLUE)</h3>
+                                <p>₹1899.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe9">
+                                <img src="/Assets/Shoes/shoe9.avif" alt="Shoe 2">
+                                <h3>DOWN STREET(BLACK)</h3>
+                                <p>₹1879.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe10">
+                                <img src="/Assets/Shoes/shoe10.avif" alt="Shoe 1">
+                                <h3>SMILEY SLIDES</h3>
+                                <p>₹1599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe11">
+                                <img src="/Assets/Shoes/shoe11.avif" alt="Shoe 2">
+                                <h3>RUN COMFY MAX</h3>
+                                <p>₹3599.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="recommend3">
+                        <h1 class="headings">OTHERS ALSO BOUGHT</h1>
+                        <div id="scroll-container">
+                            <div class="prod-card" data-id="shoe1">
+                                <img src="/Assets/Shoes/shoe1.avif" alt="Shoe 2">
+                                <h3>RESPONSE RUNNER SHOES</h3>
+                                <p>₹5599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe2">
+                                <img src="/Assets/Shoes/shoe2.avif" alt="Shoe 1">
+                                <h3>ADILETTE COMFORT SLIDES</h3>
+                                <p>₹4599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe=3">
+                                <img src="/Assets/Shoes/shoe3.avif" alt="Shoe 2">
+                                <h3>ADILETTE COTTON COMFORT</h3>
+                                <p>₹3599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe4">
+                                <img src="/Assets/Shoes/shoe4.avif" alt="Shoe 1">
+                                <h3>THE CYBERRUNNER(CyberTruck)</h3>
+                                <p>₹4999.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe5">
+                                <img src="/Assets/Shoes/shoe5.avif" alt="Shoe 2">
+                                <h3>THE CYBERRUNNER(Base-1)</h3>
+                                <p>₹4599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe6">
+                                <img src="/Assets/Shoes/shoe6.avif" alt="Shoe 1">
+                                <h3>RUN COMFY</h3>
+                                <p>₹2599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe7">
+                                <img src="/Assets/Shoes/shoe7.avif" alt="Shoe 2">
+                                <h3>RUN COMFY PRO</h3>
+                                <p>₹2999.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe8">
+                                <img src="/Assets/Shoes/shoe8.avif" alt="Shoe 1">
+                                <h3>DOWN STREET(M-BLUE)</h3>
+                                <p>₹1899.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe9">
+                                <img src="/Assets/Shoes/shoe9.avif" alt="Shoe 2">
+                                <h3>DOWN STREET(BLACK)</h3>
+                                <p>₹1879.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe10">
+                                <img src="/Assets/Shoes/shoe10.avif" alt="Shoe 1">
+                                <h3>SMILEY SLIDES</h3>
+                                <p>₹1599.00</p>
+                            </div>
+                            <div class="prod-card" data-id="shoe11">
+                                <img src="/Assets/Shoes/shoe11.avif" alt="Shoe 2">
+                                <h3>RUN COMFY MAX</h3>
+                                <p>₹3599.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- RIGHT SIDE OF THE PAGE -->
+
+            <section id="right-container">
+            <section id="right">
+                <h4 id="typeofprod" style="margin: 0px;"></h4>
+                <h1 id="prodname">RESPONSE RUNNER SHOES</h1>
+                <h4 id="prodprice">₹5599.00</h4>
+                <h5>MRP in Indian currency per pair</h5>
+                <h6>Inclusive of all taxes</h6>
+
+                <p>Buy 2 or more & get an extra 20% off this item. Offer applies to selected products only.<br>
+                    <a href="/" style="color: black;">SHOP NOW</a>
+                </p>
+                <h2 id="color-section">Colours</h2>
+                <div id="colorgrid"></div>
+
+                <div id="size">
+                    <h2 style="font-family: AdihausDIN-B;font-size: 18px;padding: 10px 0;">Sizes</h2>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>10</button>
+                    <button>11</button>
+                    <button>12</button>
+                    <button>13</button>
+                    <button>14</button>
+                    <button>15</button>
+                    <button>16</button>
+                    <button>17</button>
+                    <button>18</button>
+                </div>
+
+                <div id="caution"><img src="/Assets/misc/Caution.png" width="350px" style="margin: 20px 0px;"></div>
+
+                <div id="add-to-cart">
+                    <div class="btn-container">
+                        <button class="add-to-bag">
+                            <span>ADD TO BAG</span>
+                            <span class="arrow">→</span>
+                        </button>
+                    </div>
+                    <button class="likebtn" style="background-color: white;border: 0.5px solid black;min-width:48px;min-height:48px;"><img src="/Assets/likedlis.png" width="28px" height="28px"></button>
+                </div>
+
+                <ul style="margin: 50px 0px;">
+                    <li>Free Delivery, Free Returns</li>
+                    <li>Delivery: Delhi, Gurgaon: 1-2 Days, Metro<br>cities:2-3 days , Others: 3-5 days</li>
+                    <li>COD available for orders below ₹5000</li>
+                    <li>Secure transactions with hassle free 14 days<br>Exchange and Returns</li>
+                    <li>Save 5% on all Online Payments under Rs 5000/-</li>
+                </ul>
+        </section>
+    </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="joinoffer">
+            <h1>JOIN ADIDAS AND GET 10% OFF</h1>
+            <button>SIGN UP FOR FREE</button>
+        </section>
+
+        <section id="links">
+            <div id="list-cols">
+            <div class="columns" id="col1">
+                <h1 class="listheading">PRODUCTS</h1>
+                <h2><a href="/">Footwear</a></h2>
+                <h2><a href="/">Clothing</a></h2>
+                <h2><a href="/">Accessories</a></h2>
+                <h2> </h2>
+                <h2><a href="/">Outlet-Sale</a></h2>
+                <h2><a href="/">New Arrivals</a></h2>
+            </div>
+            <div class="columns" id="col2">
+                <h1 class="listheading">Sports</h1>
+                <h2><a href="/">Cricket</a></h2>
+                <h2><a href="/">Running</a></h2>
+                <h2><a href="/">Football</a></h2>
+                <h2><a href="/"> Gym/Training</a></h2>
+                <h2><a href="/">Tennis</a></h2>
+                <h2><a href="/">Outdoor</a></h2>
+                <h2><a href="/">Basketball</a></h2>
+                <h2><a href="/">Swimming</a></h2>
+                <h2><a href="/">Skateboarding</a></h2>
+                <h2><a href="/">Motorsport</a></h2>
+            </div>
+            <div class="columns" id="col3">
+                <h1 class="listheading">COLLECTIONS</h1>
+                <h2><a href="/">Ultraboost</a></h2>
+                <h2><a href="/">Superstar</a></h2>
+                <h2><a href="/">NMD</a></h2>
+                <h2><a href="/">Stan Smith</a></h2>
+                <h2><a href="/">Sustainability</a></h2>
+                <h2><a href="/">Predator</a></h2>
+                <h2><a href="/">Parley</a></h2>
+                <h2><a href="/">Adicolor</a></h2>   
+            </div>
+            <div class="columns" id="col4">
+                <h1 class="listheading">SUPPORT</h1>
+                <h2><a href="/">Help</a></h2>
+                <h2><a href="/">Customer Services</a></h2>
+                <h2><a href="/">Women's Summer Wear</a></h2>
+                <h2><a href="/">Return & Exchanges</a></h2>
+                <h2><a href="/">Shipping</a></h2>
+                <h2><a href="/">Order Tracker</a></h2>
+                <h2><a href="/">Store Finder</a></h2>
+                <h2><a href="/">adi Club</a></h2>
+                <h2><a href="/">adi Club Terms and Conditions</a></h2>
+            </div>
+            <div class="columns" id="col4">
+                <h1 class="listheading">COMPANY INFO</h1>
+                <h2><a href="/#aboutus">About us</a></h2>
+                <h2><a href="/">adidas stories</a></h2>
+                <h2><a href="/">adidas Apps</a></h2>
+                <h2><a href="/">Entity details</a></h2>
+                <h2><a href="/">Press</a></h2>
+                <h2><a href="/">Careers</a></h2>
+            </div>
+            <div class="columns" id="col4">
+                <h1 class="listheading">FOLLOW US</h1>
+                <a href="https://www.instagram.com/adidas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="/Assets/NE_Winstagram_logo_footer_tcm209_875968_e40414a503.png" alt="instalogo"></a>
+            </div>
+        </section>
+
+        <footer>
+            <div id="footer">
+                <ul id="legal_menu">
+                    <li class="legal_menu_item">
+                        <a href="/">Privacy Policy</a>
+                    </li>
+                    <li class="legal_menu_item">
+                        <a href="/">Terms and Conditions</a>
+                    </li>
+                    <li class="legal_menu_item" style="border: 0;">
+                        <a href="/">Cookies</a>
+                    </li>
+                </ul>
+                <div id="copyright">
+                    <span>JUST FOR EDUCATIONAL PURPOSE</span>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="/categorized/categorized.js"></script>
+        <script src="/script.js"></script>
+        <script src="/productpage/productpage.js"></script>
+    </body>
+</html>

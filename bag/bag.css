@@ -1,0 +1,89 @@
+/* Bag layout */
+#bag {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 5%;
+  flex-wrap: wrap;
+}
+
+#bag-left {
+  flex: 2;
+}
+
+#bag-right {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: max-content;
+  background-color: #f9f9f9;
+  min-width: 280px;
+}
+
+#bag-right h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+#bag-right p {
+  margin: 6px 0;
+  font-size: 0.95em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bag-right hr {
+  margin: 10px 0;
+}
+
+/* Product cards inside bag */
+#bag-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bag-card {
+  border: 0.75px solid black;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: #fff;
+}
+
+.bag-card img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+.bag-card p {
+  margin: 5px 0;
+}
+
+.order-now {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  /* background-color: black; */
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.order-now:hover {
+  background-color: #333;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-left: auto;
+}
